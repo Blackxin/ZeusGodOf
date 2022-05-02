@@ -58,7 +58,7 @@ ii) {hl}leave : Type in the Group bot will auto leave that group
 **Packspam**: Sticker Pack Spam
 i) {hl}packspam (replying to any sticker)
 
-**© @MK_TheHacker3**
+**© @MAGNESIUM_XD**
 """
 
                  
@@ -87,7 +87,7 @@ i) {hl}dreplyraid <replying to user>
 ii) {hl}dreplyraid <username>
 
 
-**© @MK_TheHacker3**
+**© @MAGNESIUM_XD**
 """
 
 spam_msg = f"""
@@ -116,7 +116,7 @@ i) {hl}pornspam <count>
 command:
 i) {hl}hang <counter> (you can reply any message if you want bot to reply that message and do spamming)
 
-** © @MK_TheHacker3**
+** © @MAGNESIUM_XD**
 """                     
            
            
@@ -146,7 +146,7 @@ async def helpback(event):
         )           
    else:
         Alert = (
-                "Noob !! Make Your Own MK X Spam Bots !!"
+                "Noob !! Make Your Own 🔥 𓆩𝐌𝐀𝐆𝐍𝐄𝐒𝐈𝐔𝐌𓆪 𝗫 𝗦𝗣𝗔𝗠 🔥 Bots !!"
             )
         await event.answer(Alert, cache_time=0, alert=True)
       
@@ -174,7 +174,7 @@ async def help_spam(event):
             ) 
    else:
         Alert = (
-                "Noob !! Make Your Own MK X Spam Bots !!"
+                "Noob !! Make Your Own 🔥 𓆩𝐌𝐀𝐆𝐍𝐄𝐒𝐈𝐔𝐌𓆪 𝗫 𝗦𝗣𝗔𝗠 🔥 Bots !!"
             )
         await event.answer(Alert, cache_time=0, alert=True)
                  
@@ -201,7 +201,7 @@ async def help_raid(event):
             )  
      else:
         Alert = (
-                "Noob !! Make Your Own MK X Spam Bots !!"
+                "Noob !! Make Your Own 🔥 𓆩𝐌𝐀𝐆𝐍𝐄𝐒𝐈𝐔𝐌𓆪 𝗫 𝗦𝗣𝗔𝗠 🔥 Bots !!"
             )
         await event.answer(Alert, cache_time=0, alert=True)
        
@@ -229,6 +229,6 @@ async def help_extra(event):
             )
    else:
         Alert = (
-                "Noob !! Make Your Own MK X Spam Bots !!"
+                "Noob !! Make Your Own 🔥 𓆩𝐌𝐀𝐆𝐍𝐄𝐒𝐈𝐔𝐌𓆪 𝗫 𝗦𝗣𝗔𝗠 🔥 Bots !!"
             )
         await event.answer(Alert, cache_time=0, alert=True)
