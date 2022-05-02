@@ -4,7 +4,7 @@ from .. import MK1, MK2, MK3, MK4, MK5, MK6, MK7, MK8, MK9, MK10, ALIVE_PIC, OWN
 from MKXSpam.plugins.help import *
 
 
-MK_IMG = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/a2beccc714b5f011dd42d.jpg"
+MK_IMG = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/fc09787e064ec4f0aec98.jpg"
 
 MK_Button = [
         [
