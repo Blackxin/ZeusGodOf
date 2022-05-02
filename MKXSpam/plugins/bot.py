@@ -94,7 +94,7 @@ async def ping1(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"🍷🍷.!\n`{ms}` ms\n⚔️🔥𓆩𝐌𝐀𝐆𝐍𝐄𝐒𝐈𝐔𝐌𓆪 𝗫 𝗦𝗣𝗔𝗠🔥⚔️")
+        await event.edit(f" \n`{ms}` ms\n⚔️🔥𓆩𝐌𝐀𝐆𝐍𝐄𝐒𝐈𝐔𝐌𓆪 𝗫 𝗦𝗣𝗔𝗠🔥⚔️")
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%sping2(?: |$)(.*)" % hl))
