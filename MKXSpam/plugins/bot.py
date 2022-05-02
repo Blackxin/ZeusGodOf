@@ -17,10 +17,10 @@ from telethon.errors import (
     ChannelPublicGroupNaError,
 )
 
-MK_PIC = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/4e14aa0dbc58b086fa8db.jpg"
+MK_PIC = ALIVE_PIC if ALIVE_PIC else "🔥 𓆩𝐌𝐀𝐆𝐍𝐄𝐒𝐈𝐔𝐌𓆪 𝗫 𝗦𝗣𝗔𝗠 🔥"
   
 
-mk = "✯ 𝐙𝐄𝐔𝐒𝗫𝗦𝗽𝗮𝗺 𝗛𝗲𝗿𝗲 ✯\n\n"
+mk = "✯ 𝐙𝐄𝐔𝐒-𝗦𝗽𝗮𝗺 𝗛𝗲𝗿𝗲 ✯\n\n"
 mk += f"═══════════════════\n"
 mk += f"• **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.9.6`\n"
 mk += f"• **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
@@ -94,7 +94,7 @@ async def ping1(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"🍷 ⛦‌𝙈𝘼𝙍𝘾𝙊𝙎🍷.!\n`{ms}` ms\n⚔️ ★⃟⃝🥀𓆩𝐙𝐄𝐔𝐒 𓆩𝙊𝙋𓆪🥀✘ 𝙎𝙋𝘼𝙈𝘽𝙊𝙏 ⚔️")
+        await event.edit(f"🍷🍷.!\n`{ms}` ms\n⚔️🔥𓆩𝐌𝐀𝐆𝐍𝐄𝐒𝐈𝐔𝐌𓆪 𝗫 𝗦𝗣𝗔𝗠🔥⚔️")
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%sping2(?: |$)(.*)" % hl))
@@ -134,7 +134,7 @@ async def ping3(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"🍷 𝐑𝐈𝐒𝐇𝐈𝐊𝐀🍷.!\n`{ms}` ms\n⚔️ 𝐋𝐨𝐯𝐞 ❤️  𓆩𝐙𝐄𝐔𝐒𓆪 ⚔️")
+        await event.edit(f"🍷🔥𓆩𝐌𝐀𝐆𝐍𝐄𝐒𝐈𝐔𝐌𓆪🔥🍷.!\n`{ms}` ms\n⚔️ 𓆩𝐙𝐄𝐔𝐒𓆪 ⚔️")
         
         
 
