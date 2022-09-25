@@ -20,12 +20,14 @@ from telethon.errors import (
 MK_PIC = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/fc09787e064ec4f0aec98.jpg"
   
 
-mk = "✯ 𝐙𝐄𝐔𝐒-𝗦𝗽𝗮𝗺 𝗛𝗲𝗿𝗲 ✯\n\n"
-mk += f"═══════════════════\n"
-mk += f"• **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.9.6`\n"
-mk += f"• **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
-mk += f"• **ᴢᴇᴜꜱXsᴘᴀᴍ ᴠᴇʀsɪᴏɴ**  : `{MKVersion}`\n"
-mk += f"═══════════════════\n\n"   
+mk = "🇮🇳 Ȥɛꪀꫀ᥊ ҳ ʂ℘ᴀ𝐌⚡\n\n"
+mk += f"•❅─────✧✦✧─────❅•\n"
+mk += f"• **𝐌ʏ 𝐌ᴀsᴛᴇʀ** : [𝒁𝑒𝑛𝑢](https://t.me/Zenex_xD)`\n"
+mk += f"• **𝐏ʏᴛʜᴏɴ 𝐕ᴇʀsɪᴏɴ** : `3.10.5`\n"
+mk += f"• **𝐓ᴇʟᴇᴛʜᴏɴ 𝐕ᴇʀsɪᴏɴ** : `{version.__version__}`\n"
+mk += f"• **𝐙ᴇᴜꜱx𝐒ᴘᴀᴍ ᴠᴇʀsɪᴏɴ**  : `{MKVersion}`\n"
+mk += f"• **𝐌ᴀᴊᴅᴜʀ 𝐊ᴏ 𝐊ʜᴏᴏᴅʜ 𝐍ᴀ ᴏʀ 𝐁ᴀᴀᴘ 𝐊ᴏ 𝐂ʜᴏᴅɴᴀ 𝐍ʜɪ 𝐒ᴇᴇᴋʜᴀᴛᴇ...😂🖕`\n"
+mk += f"•❅─────✧❅✦❅✧─────❅•\n\n"   
 
                                   
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
@@ -45,7 +47,7 @@ async def alive(event):
                                   caption=mk,
                                   buttons=[
         [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/ERR0rMK/PythonBot13")
+        Button.url("• 𝐑ᴇᴘᴏ •", "https://github.com/Zeusop05/ZeUsXspam")
         ]
         ]
         )
@@ -94,7 +96,7 @@ async def ping1(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f" 🔥 𓆩𝐌𝐀𝐆𝐍𝐄𝐒𝐈𝐔𝐌𓆪\n`{ms}` ms\n⚔️🔥𝗦𝗣𝗔𝗠🔥⚔️")
+        await event.edit(f" 🔥 𓆩𝐇𝐋𝐨 𝐁𝐮𝐝𝐝𝐘𓆪\n`{ms}` ms\n⚔️𝐀𝐚𝐩 𝐊𝐞 𝐏𝐚𝐩𝐚 𝐀𝐚𝐲𝐞 𝐇𝐚𝐢💥")
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%sping2(?: |$)(.*)" % hl))
@@ -114,7 +116,7 @@ async def ping2(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"🔥🥳𝐒𝐏𝐄𝐄𝐃🔥🥳!\n`{ms}` 𝗺𝘀\n🤩🥀—𝙁・𝙐𝘾𝙆 𓆩𝙊𝙁𝙁 🤫😂𓆪🥀 𝐒𝐏𝐀𝐌𝐁𝐎𝐓🤩")
+        await event.edit(f"🔥🥳𝐆𝐔𝐋𝐀𝐌𝐁𝐈🔥🥳!\n`{ms}` 𝗺𝘀\n𝐉𝐚𝐚 𝐧𝐚 𝐦𝐚𝐝𝐡𝐚𝐫𝐱𝐡𝐨𝐝")
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%sping3(?: |$)(.*)" % hl))
@@ -134,7 +136,7 @@ async def ping3(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"🍷🔥𓆩𝐌𝐀𝐆𝐍𝐄𝐒𝐈𝐔𝐌𓆪🔥🍷.!\n`{ms}` ms\n⚔️ 𓆩𝐙𝐄𝐔𝐒𓆪 ⚔️")
+        await event.edit(f"🤪 𝐊𝐢𝐓𝐧𝐚 𝐏𝐈𝐧𝐆🙄.!\n`{ms}` ms\n𝐤𝐫𝐞𝐠𝐚 𝐫𝐞𝐡 𝐒𝐡𝐚𝐧𝐭 𝐫𝐞𝐡")
         
         
 
