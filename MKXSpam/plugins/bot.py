@@ -20,13 +20,13 @@ from telethon.errors import (
 MK_PIC = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/fc09787e064ec4f0aec98.jpg"
   
 
-mk = "🇮🇳 Ȥɛꪀꫀ᥊ ҳ ʂ℘ᴀ𝐌⚡\n\n"
+mk = "🇮🇳 Ȥɛꪀꫀ᥊ ҳ ʂ℘ᴀ𝐌 ⚡\n\n"
 mk += f"•❅─────✧✦✧─────❅•\n"
-mk += f"• **𝐌ʏ 𝐌ᴀsᴛᴇʀ** : [𝒁𝑒𝑛𝑢](https://t.me/Zenex_xD)`\n\n"
+mk += f"• **𝐌ʏ 𝐌ᴀsᴛᴇʀ** : [𝒁𝑒𝑛𝑢](https://t.me/Zenex_xD)`\n"
 mk += f"• **𝐏ʏᴛʜᴏɴ 𝐕ᴇʀsɪᴏɴ** : `3.10.5`\n"
 mk += f"• **𝐓ᴇʟᴇᴛʜᴏɴ 𝐕ᴇʀsɪᴏɴ** : `{version.__version__}`\n"
 mk += f"• **𝐙ᴇᴜꜱx𝐒ᴘᴀᴍ ᴠᴇʀsɪᴏɴ**  : `{MKVersion}`\n"
-mk += f"• **𝐌ᴀᴊᴅᴜʀ 𝐊ᴏ 𝐊ʜᴏᴏᴅʜ 𝐍ᴀ ᴏʀ 𝐁ᴀᴀᴘ 𝐊ᴏ 𝐂ʜᴏᴅɴᴀ 𝐍ʜɪ 𝐒ᴇᴇᴋʜᴀᴛᴇ...😂🖕`\n\n"
+mk += f"• **𝐌ᴀᴊᴅᴜʀ 𝐊ᴏ 𝐊ʜᴏᴏᴅʜ 𝐍ᴀ ᴏʀ 𝐁ᴀᴀᴘ 𝐊ᴏ 𝐂ʜᴏᴅɴᴀ 𝐍ʜɪ 𝐒ᴇᴇᴋʜᴀᴛᴇ...😂🖕`\n"
 mk += f"•❅─────✧❅✦❅✧─────❅•\n\n"   
 
                                   
