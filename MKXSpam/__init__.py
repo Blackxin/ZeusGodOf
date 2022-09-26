@@ -11,7 +11,7 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
                     level=logging.WARNING)
 
 #Version
-MKVersion = "M13.1"
+MKVersion = "Z26.1"
 
 
 #Values
