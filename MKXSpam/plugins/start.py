@@ -1,3 +1,5 @@
+import asyncio
+import os
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon import events, Button
 from .. import MK1, MK2, MK3, MK4, MK5, MK6, MK7, MK8, MK9, MK10, ALIVE_PIC, OWNER_ID
