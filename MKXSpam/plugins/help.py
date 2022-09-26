@@ -24,11 +24,11 @@ async def help(event):
                                   caption=MK_Help,
                                   buttons=[
            [
-            Button.inline("• Spam •", data="spam"),
-            Button.inline("• Raid •", data="raid"),
+            Button.inline("• 𝐒ᴘᴀᴍ •", data="spam"),
+            Button.inline("• 𝐑ᴀɪᴅ •", data="raid"),
            ],
            [
-            Button.inline("• Extra •", data="extra"),
+            Button.inline("• 𝐄xᴛʀᴀ •", data="extra"),
            ],
            ],
            )              
@@ -45,20 +45,20 @@ ii) {hl}alive
 iii) {hl}restart
 iv) {hl}addsudo <reply to user> : Owner Cmd
 
-**Echo**: To Active Echo On Any User
-command:
-i) {hl}addecho <reply to user>
-ii) {hl}rmecho <reply to user>
+**Echo**: 𝐓ᴏ Aᴄᴛɪᴠᴇ Eᴄʜᴏ ᴏɴ ᴀɴʏ ᴜsᴇʀ
+Cᴏᴍᴍᴀɴᴅs :
+i) {hl}addecho <ʀᴇᴘʟʏ ᴛᴏ ᴜsᴇʀ>
+ii) {hl}rmecho <ʀᴇᴘʟʏ ᴛᴏ ᴜsᴇʀ>
 
 **Leave**: To Leave Group/channel
 command:
 i) {hl}leave <group/chat id>
 ii) {hl}leave : Type in the Group bot will auto leave that group
 
-**Packspam**: Sticker Pack Spam
+**Packspam**: 𝐒ᴛɪᴄᴋᴇʀ Pᴀᴄᴋ Sᴘᴀᴍ
 i) {hl}packspam (replying to any sticker)
 
-**© @MAGNESIUM_XD**
+**© @ZeNeX_xD**
 """
 
                  
@@ -66,28 +66,28 @@ raid_msg = f"""
 **Help Raid Cmds**
 
 
-**Raid:** Activates raid on any individual user for given range.
+**Raid:** Activates ʀᴀɪᴅ ᴏɴ ᴀɴʏ ɪɴᴅɪᴠɪᴅᴜᴀʟ ᴜsᴇʀ ғᴏʀ ɢɪᴠᴇɴ  Rᴀɴɢᴇ.
 command:
 i) {hl}raid <count> <username>
-ii) {hl}raid <count> <reply to user>
+ii) {hl}raid <count> <ʀᴇᴘʟʏ ᴛᴏ ᴜsᴇʀ>
 
-**Delayraid**: Activates raid on any individual user for given range.
+**Delayraid**: Aᴄᴛɪᴠᴀᴛᴇs raid on any individual user for given range.
 Command:
 i) {hl}delayraid <delay> <count> <Username of User>
 ii) {hl}delayraid <delay> <count> <reply to a User>
 
-**Replyraid:** Activates Reply Raid on the user!!
+**Replyraid:** Activates Rᴇᴘʟʏ Rᴀɪᴅ ᴏɴ ᴛʜᴇ ᴜsᴇʀ!!
 command:
-i) {hl}replyraid <replying to user>
-ii) {hl}dreplyraid <username>
+i) {hl}replyraid <ʀᴇᴘʟʏɪɴɢ ᴛᴏ ᴜsᴇʀ>
+ii) {hl}dreplyraid <ᴜsᴇʀɴᴀᴍᴇ>
 
-**Dreplyraid:** Deactivates reply raid on the user!!
+**Dreplyraid:** Deactivates rᴇᴘʟʏ ʀᴀɪᴅ ᴏɴ ᴛʜᴇ ᴜsᴇʀ!!
 command:
-i) {hl}dreplyraid <replying to user>
-ii) {hl}dreplyraid <username>
+i) {hl}dreplyraid <ʀᴇᴘʟʏɪɴɢ ᴛᴏ ᴜsᴇʀ>
+ii) {hl}dreplyraid <ᴜsᴇʀɴᴀᴍᴇ>
 
 
-**© @MAGNESIUM_XD**
+**© @ZeNeX_xD**
 """
 
 spam_msg = f"""
@@ -136,11 +136,11 @@ async def helpback(event):
             MK_Help,
             buttons=[
                 [
-            Button.inline("Spam", data="spam"),
-            Button.inline("Raid", data="raid"),
+            Button.inline("● 𝐒ᴘᴀᴍ ●", data="spam"),
+            Button.inline("● 𝐑ᴀɪᴅ ●", data="raid"),
            ],
            [
-            Button.inline("Extra cmds", data="extra"),
+            Button.inline("𝐄xᴛʀᴀ cᴍᴅs", data="extra"),
            ],
            ],
         )           
@@ -174,7 +174,7 @@ async def help_spam(event):
             ) 
    else:
         Alert = (
-                "Noob !! Make Your Own 🔥 𓆩𝐌𝐀𝐆𝐍𝐄𝐒𝐈𝐔𝐌𓆪 𝗫 𝗦𝗣𝗔𝗠 🔥 Bots !!"
+                "𝐕𝐚𝐢 !! 𝐊ᴜᴅʜ ᴋᴀ ʙɴᴀ ʟᴇ ɴᴀ ʙsᴅᴋ ʙᴜᴛᴛᴏɴ ᴍᴀɪ ɢàɴᴅ ᴜɴɢʟɪ ɴᴀ ᴋʀ!!"
             )
         await event.answer(Alert, cache_time=0, alert=True)
                  
@@ -201,7 +201,7 @@ async def help_raid(event):
             )  
      else:
         Alert = (
-                "Noob !! Make Your Own 🔥 𓆩𝐌𝐀𝐆𝐍𝐄𝐒𝐈𝐔𝐌𓆪 𝗫 𝗦𝗣𝗔𝗠 🔥 Bots !!"
+                "𝑲𝒓 𝒍𝒊𝒚𝒂 𝑺𝒘𝒂𝒈  !! 𝑪𝒉𝒍𝒂 𝒋𝒂 𝒃𝒔𝒅𝒌 𝑲𝒖𝒅𝒉 𝒌𝒂 𝒃𝒏𝒂 𝑩𝒐𝒕 !!"
             )
         await event.answer(Alert, cache_time=0, alert=True)
        
@@ -223,12 +223,12 @@ async def help_extra(event):
             extra_msg,
             buttons=[
             [
-            Button.inline("< Back", data="help_back"),                        
+            Button.inline("◁", data="help_back"),                        
             ],
             ],
             )
    else:
         Alert = (
-                "Noob !! Make Your Own 🔥 𓆩𝐌𝐀𝐆𝐍𝐄𝐒𝐈𝐔𝐌𓆪 𝗫 𝗦𝗣𝗔𝗠 🔥 Bots !!"
+                "𝙅𝙪𝙨𝙩 !! 𝙈𝙖𝙠𝙚 𝙮𝙤𝙪𝙧 𝙤𝙬𝙣 𝘽𝙤𝙩𝙨 𝙗𝙧𝙤 𝙩𝙝𝙖𝙩'𝙨 𝙄𝙏 𝙣𝙙 𝙀𝙣𝙟𝙤𝙮 !!"
             )
         await event.answer(Alert, cache_time=0, alert=True)
