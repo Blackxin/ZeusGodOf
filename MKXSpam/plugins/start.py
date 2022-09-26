@@ -29,7 +29,7 @@ MK_Button = [
 @MK9.on(events.NewMessage(pattern="/start"))
 @MK10.on(events.NewMessage(pattern="/start"))
 async def start(e):              
-    if e.chat_id is e sender_id:
+    if e.chat_id is e.sender_id:
         name = e.sender.first_name
         user_id = e.sender_id
         mention = f"[{name}](tg://user?id={user_id})"
