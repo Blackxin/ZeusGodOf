@@ -28,17 +28,30 @@ MK_Button = [
 @MK8.on(events.NewMessage(pattern="/start"))
 @MK9.on(events.NewMessage(pattern="/start"))
 @MK10.on(events.NewMessage(pattern="/start"))
-async def start(event):              
-    if event.is_private:
-       MKBot = await event.client.get_me()
-       bot_id = MKBot.first_name
-       bot_username = MKBot.username
-       replied_user = await event.client(GetFullUserRequest(event.sender_id))
-       TheMK = event.chat_id
-       firstname = replied_user.user.first_name
-       usermsg = f"**Hᴇʟʟᴏ, {firstname} ! Nɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ, Wᴇʟʟ 𝐈 ᴀᴍ {bot_id}, Aɴ 𝐏ᴏᴡᴇʀғᴜʟʟ Sᴘᴀᴍ Bᴏᴛ.** \n\n**🥀 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ [Zꫀꪀꫀ᥊](https://t.me/Zenex_xD)**"
-       if event.sender_id not in SUDO_USERS:
-            await event.client.send_file(TheMK,
-                  MK_IMG,
-                  caption=usermsg, 
-                  buttons=MK_Button)
+async def start(e):              
+    if e.chat_id is e sender_id:
+        name = e.sender.first_name
+        user_id = e.sender_id
+        mention = f"[{name}](tg://user?id={user_id})"
+        myOwner = f"[{OWNER_NAME}](tg://user?id={OWNER_ID})"
+        creator = f"[Zꫀꪀꫀ᥊ 🇮🇳](tg://user?id={2102783671})"
+        sudo_user = ""
+        if e.sender_id in MY_USERS:
+            sudo_user = "True"
+        else:
+            sudo_user = "False"
+        ON_START = f"""
+Hᴇʟʟᴏ, {mention} ! Nɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ,
+
+Wᴇʟʟ 𝐈 ᴀᴍ Aɴ 𝐏ᴏᴡᴇʀғᴜʟʟ Sᴘᴀᴍ Bᴏᴛ. 
+
+My master ~> {myOwner}
+Sudo user ~> {sudo_user}
+
+𝐏ᴏᴡᴇʀᴇᴅ ʙʏ {creator}
+
+© @zenex_xD
+❅──────✧──────❅
+"""
+        await e.client.send_file(e.chat_id, DISPLAY_PIC, caption=ON_START, buttons=data)
+       
