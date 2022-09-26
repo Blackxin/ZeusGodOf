@@ -34,8 +34,8 @@ async def start(event):
        replied_user = await event.client(GetFullUserRequest(event.sender_id))
        TheMK = event.chat_id
        firstname = replied_user.user.first_name
-       ownermsg = f"**Hi Master, Its me {bot_id}, Your Spam Bot !! \n\n Click Below Buttons For help**"
-       usermsg = f"**Hello, {firstname} ! Nice To Meet You, Well I Am {bot_id}, An Powerfull Spam Bot.** \n\n**𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 [𝐌𝐊](https://t.me/MK_TheHacker3)**"
+       ownermsg = f"**Hɪ 𝐌ᴀsᴛᴇʀ⚡, Iᴛs ᴍᴇ {bot_id}, Yᴏᴜʀ Sᴘᴀᴍ Bᴏᴛ 🇮🇳 !! \n\n Cʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ**"
+       usermsg = f"**Hᴇʟʟᴏ, {firstname} ! Nɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ, Wᴇʟʟ 𝐈 ᴀᴍ {bot_id}, Aɴ 𝐏ᴏᴡᴇʀғᴜʟʟ Sᴘᴀᴍ Bᴏᴛ.** \n\n**🥀 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ [Zꫀꪀꫀ᥊](https://t.me/Zenex_xD)**"
        if event.sender_id == OWNER_ID:
             await event.client.send_file(TheMK,
                   MK_IMG,
