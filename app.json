@@ -85,7 +85,17 @@
             "description": "Sudo users id space by space",
             "value": "",
             "required": false
-        },
+      },
+      "OWNER_NAME": {
+        "description": "Enter Your Good Name Of Telegram!",
+        "value": "",
+       "required": false
+      },
+      "OWNER_USERNAME": {
+        "description": "Enter Your Telegram Username Without @!",
+        "value": "",
+        "required": false
+      },
       "OWNER_ID": {
             "description": "Owner Id",
             "value": "",
