@@ -16,16 +16,16 @@ MK_Button = [
 #USERS 
 
 
-@MK1.on(events.NewMessage(pattern="/start"))
-@MK2.on(events.NewMessage(pattern="/start"))
-@MK3.on(events.NewMessage(pattern="/start"))
-@MK4.on(events.NewMessage(pattern="/start"))
-@MK5.on(events.NewMessage(pattern="/start"))
-@MK6.on(events.NewMessage(pattern="/start"))
-@MK7.on(events.NewMessage(pattern="/start"))
-@MK8.on(events.NewMessage(pattern="/start"))
-@MK9.on(events.NewMessage(pattern="/start"))
-@MK10.on(events.NewMessage(pattern="/start"))
+@MK1.on(events.NewMessage(outgoing=True))
+@MK2.on(events.NewMessage(outgoing=True))
+@MK3.on(events.NewMessage(outgoing=True))
+@MK4.on(events.NewMessage(outgoing=True))
+@MK5.on(events.NewMessage(outgoing=True))
+@MK6.on(events.NewMessage(outgoing=True))
+@MK7.on(events.NewMessage(outgoing=True))
+@MK8.on(events.NewMessage(outgoing=True))
+@MK9.on(events.NewMessage(outgoing=True))
+@MK10.on(events.NewMessage(outgoing=True))
 async def start(event):              
     if event.is_private:
        MKBot = await event.client.get_me()
